@@ -56,6 +56,7 @@ $ git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.g
 
 ### Отправить изменения на удалённый репозиторий
 
+`git push -u origin` - настроить пуш в первый раз
 `git push`
 
 ### Клонировать репозиторий 
@@ -107,9 +108,13 @@ $ git clone https://github.com/yandex-praktikum/git-clone-lesson
 
 ### Пример работы с изменениями в удаленном репозитории 
 `$ git checkout main # перешли в main`
+
 `$ git pull # подтянули новые изменения в main`
+
 `$ git checkout my-branch # вернулись в рабочую ветку my-branch`
+
 `$ git merge main # влили main в новую ветку my-branch`
+
 `$ git push -u origin my-branch # отправили ветку my-branch в удалённый репозиторий`
 
 ---
