@@ -57,6 +57,7 @@ $ git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.g
 ### Отправить изменения на удалённый репозиторий
 
 `git push -u origin` - настроить пуш в первый раз
+
 `git push`
 
 ### Клонировать репозиторий 
